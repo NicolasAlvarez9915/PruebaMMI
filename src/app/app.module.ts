@@ -10,20 +10,28 @@ import { MaterialModule } from './Shared/Modules/Material/material.module';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { HomeComponent } from './core/components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatTabsModule} from "@angular/material/tabs";
+import { TabPromotorCasaComponent } from './core/components/home/components/tab-promotor-casa/tab-promotor-casa.component';
+import { SoyPromotorComponent } from './core/components/home/components/soy-promotor/soy-promotor.component';
+import {CasaDeProductoComponent} from "./Core/components/Home/components/casa-de-producto/casa-de-producto.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    TabPromotorCasaComponent,
+    SoyPromotorComponent,
+    CasaDeProductoComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    NgbModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MaterialModule,
+        NgbModule,
+        MatTabsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

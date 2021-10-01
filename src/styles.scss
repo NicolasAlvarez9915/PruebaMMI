@@ -41,3 +41,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+.columna{
+  border-radius: 50px;
+  width: 80%;
+  text-align: center;
+  box-shadow: 21px 12px 20px -1px rgba(0,0,0,0.22);
+}
+.columnaTexto{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.cuerpoTab{
+  width: 100%;
+  margin-top: 1rem
+}

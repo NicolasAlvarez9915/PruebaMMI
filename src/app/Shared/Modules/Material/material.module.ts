@@ -19,6 +19,7 @@ import {MatCardModule} from "@angular/material/card";
 import {CdkStepperModule} from "@angular/cdk/stepper";
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {MatButtonModule} from "@angular/material/button";
+import {MatTabContent, MatTabGroup, MatTabsModule} from "@angular/material/tabs";
 
 
 const MaterialComponents = [
@@ -43,6 +44,7 @@ const MaterialComponents = [
   MatButtonToggleModule,
   MatMenuModule,
   MatCheckboxModule,
+  MatTabsModule,
 
 
   FontAwesomeModule
