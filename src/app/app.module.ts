@@ -14,6 +14,7 @@ import {MatTabsModule} from "@angular/material/tabs";
 import { TabPromotorCasaComponent } from './core/components/home/components/tab-promotor-casa/tab-promotor-casa.component';
 import { SoyPromotorComponent } from './core/components/home/components/soy-promotor/soy-promotor.component';
 import {CasaDeProductoComponent} from "./Core/components/Home/components/casa-de-producto/casa-de-producto.component";
+import { FooterComponent } from './core/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {CasaDeProductoComponent} from "./Core/components/Home/components/casa-de
     HomeComponent,
     TabPromotorCasaComponent,
     SoyPromotorComponent,
-    CasaDeProductoComponent
+    CasaDeProductoComponent,
+    FooterComponent
   ],
     imports: [
         BrowserModule,
